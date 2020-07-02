@@ -1,0 +1,176 @@
+/* this applies to everything */
+
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+/* This styling will apply to all of the body/html */
+html, body{
+    font-family: 'PT sans', sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+    color: #faf6f6;
+    line-height: 1.6;
+    overflow-y: hidden;
+}
+/* editing elements */
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 32px;
+}
+p{
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+    overflow-y: hidden;
+    text-align: left;
+    width: 100%;
+    height: 220px;
+   
+}
+h3{
+    float: right;
+    text-align: right;
+}
+
+/*class and ID tags forming most of the strucutre of the website*/
+.wrap{
+    overflow: auto;
+    width: 100%;
+}
+.container1{
+    background-color: antiquewhite;
+    align-content: center;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    float: left;
+    width: 33.33%;  
+    margin-bottom: 2px;
+    margin-right: 4px
+    
+    
+}
+.container2{
+    background-color: antiquewhite;
+    align-content: center;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    float: left;
+    width: 31.33%;  
+    margin-bottom: 2px;
+    margin-right: 4px
+    
+  
+}
+.container3{
+    background-color: antiquewhite;
+    align-content: center;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    float: left;
+    width: 33.33%;  
+    margin-bottom: 2px;
+    margin-right: 4px
+    
+}
+
+#title1{
+  color: rgb(36, 26, 124);
+  background-color: rgb(63, 143, 209);
+  border: 1px solid black;
+  margin: 3px;
+  padding-right: 2px;
+  width: 45px;
+  align-items: center; 
+  background-position: top right; 
+}
+
+
+#title2{
+    color: rgb(36, 26, 124);
+    background-color: rgb(82, 182, 69);
+    border: 1px solid black;
+    margin: 3px;
+    padding-right: 2px;
+    width: 45px;
+    align-items: center; 
+    background-position: top right;    
+}
+
+#title3{
+    color: rgb(36, 26, 124);
+    background-color: rgb(182, 69, 167);
+    border: 1px solid black;
+    margin: 3px;
+    padding-right: 2px;
+    width: 45px;
+    align-items: center; 
+    background-position: top right;
+    
+}
+
+/* This is the responsive element to the basic website, focusing on phones, tablets and larger screens*/
+@media screen and (max-width: 992){
+    .container1{
+        float: left;
+        width: 33.33%;
+        margin-right: 15px;
+    }
+    .container2{
+        float: left;
+        width: 33.33%;
+        margin-right: 15px;
+    }
+    .container3{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    *{box-sizing: border-box;}
+    .container1{
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+    }
+    .container2{
+        float: left;
+        width: 46%;
+       
+    }
+    .container3{
+        float: left;
+        width: 96%;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container1{
+       width: 100%;
+       float: left;
+       margin-top: 15px;
+        
+    }
+    .container2{
+        width: 100%;
+       float: left;
+       margin-top: 15px;
+    }
+    .container3{
+        width: 100%;
+       float: left;
+       margin-top: 15px;
+    }
+
+}
+
+
